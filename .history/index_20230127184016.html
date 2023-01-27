@@ -11,11 +11,6 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
- .wrapper{ 
-	margin: 0 auto;
-	width: 60%; 
-	background-color: #ffffff; 
-}
 
 body {
 	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
@@ -363,7 +358,12 @@ code {
 <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
 </head>
 <body>
-	<div class="wrapper">
+	div { 
+		margin: 0 auto;
+		height: 80%; 
+		width: 80%; 
+		background-color: #d31313; 
+	}
   <script>
     mermaid.initialize({
       startOnLoad: true,
@@ -431,6 +431,6 @@ table {
 <h2 id="teaching">Teaching</h2>
 <p>TA for Database - <a href="https://kursuskatalog.au.dk/da/course/118278/Databasesystemer">2023 spring</a></p>
 <p>TA for Data Mining - <a href="https://kursuskatalog.au.dk/da/course/104084/Data-Mining">2022 spring</a></p>
-</div>
+<!-- </center> -->
 </body>
 </html>
